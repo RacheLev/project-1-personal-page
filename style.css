@@ -221,6 +221,13 @@ h3 {
 	width: 55%;
 	margin: auto;
 	margin-top: 50px;
+	border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+	padding-bottom: 60px;
+}
+
+#form:hover {
+	border-bottom: 4px solid #BD7B1A;
 }
 
 input{
@@ -275,6 +282,7 @@ p .button_1 {
 
 p .button_1:hover {
 	font-weight: bold;
+
 }
 
 /* Footer */

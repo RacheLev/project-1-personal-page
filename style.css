@@ -1,0 +1,287 @@
+/* Global */
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 55%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/* body */
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	background: #efeadc;
+}
+
+/* Link Styles */
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+header {
+	width: 100%;
+	background: #556B2F;
+	color: #fff;
+	padding-top: 20px;
+	min-height: 40px;
+	z-index: 10;
+	position: fixed;
+}
+
+header a {
+	color: #d6d6cd;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.1em;
+	letter-spacing: 0.5px;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #name {
+	float: left;
+	font-weight: bold;
+	font-size: 1.2em;
+  letter-spacing: 0.6px;
+}
+
+header #name p{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-bottom: 18px;
+}
+
+header a:hover{
+	color: #fff;
+	font-weight: bold;
+
+}
+
+/* background image */
+#bg-img {
+	min-height: 450px;
+	background: url('images/new_background.jpg') no-repeat center;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+
+/* profile-image  */
+.profile-image {
+	border-radius: 50%;
+	border: #556B2F 5px solid;
+	margin-top: 100px;
+	width: 130px;
+    height: auto;
+	transition: all .5s;
+}
+
+.profile-image:hover {
+  transform: scale(1.2) rotate(10deg);
+}
+
+h1 span {
+
+	background-color: #fff;
+	color: #3F2E15;
+	padding: 15px;
+	border-radius: 10px;
+	position: relative;
+	top: 20px;
+}
+
+p span {
+	background-color: #556B2F;
+	color: #fff;
+	padding:  10px 13px;
+	border-radius: 10px;
+	font-size: 1.2em;
+}
+
+ .plower-pic {
+	position: absolute;
+	float: left;
+	top: 620px;
+	left: 250px;
+	border-radius: 50%;
+	/* border: #556B2F 5px solid; */
+
+ }
+
+/* goals & background*/
+.background, .goals{
+	width: 40%;
+	float: left;
+	margin-top: 60px;
+	line-height: 1.8;
+	font-size: 1.1em;
+	border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+
+.goals:hover {
+	border-bottom: 4px solid #BD7B1A;
+
+}
+
+.background:hover {
+	border-bottom: 4px solid #BD7B1A;
+}
+
+.goals {
+	float: right;
+	border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+	margin-left: 80px;
+	padding-bottom: 90px;
+}
+
+.background {
+	padding-bottom: 40px;
+}
+
+.skills li{
+	display: inline;
+	padding: 5px 10px;
+	color: #fff;
+}
+
+ul .html, .css, .js, .jq {
+	margin-right: 10px;
+
+	padding: 5px;
+	border-radius: 5px;
+}
+
+ul .html {
+	background-color: purple;
+	margin-left: 40px;
+}
+
+ul .css {
+	background-color: red;
+}
+
+ul .js {
+	background-color: green;
+}
+
+ul .jq {
+	background-color: blue;
+}
+
+/* Experience */
+.experience {
+	margin-top: 50px;
+	text-align: center;
+	line-height: 1.8;
+
+}
+
+.my-experience {
+	margin-top: 50px;
+	text-align: center;
+}
+
+/* Form */
+.in-touch {
+	text-align: center;
+	text-transform: uppercase;
+	color: #33332d;
+}
+
+h3 {
+	color: #6d6d68;
+	font-weight: 400;
+}
+
+#form {
+	width: 55%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+input{
+	display: inline;
+  padding: 10px 10px;
+  margin: 2px 0;
+  color: grey;
+	font-size: 1em;
+}
+
+.first-name {
+	width: 48%;
+	margin-right: 15px;
+}
+
+.email {
+	width: 48%;
+}
+
+textarea {
+  font-family: 'Nunito', sans-serif;
+	margin: 15px 0 0 0;
+	width: 100%;
+	padding: 10px 10px;
+  color: grey;
+	font-size: 1.1em;
+}
+
+input:focus, textarea{
+  outline: none;
+}
+
+input:focus, textarea:focus{
+	border: orange solid 2px;
+}
+
+.button_1 {
+	margin-top: 18px;
+	padding: 10px 12px;
+	background-color: orange;
+	text-transform: uppercase;
+	border: none;
+}
+
+p .button_1 {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1.1em;
+	letter-spacing: 0.5px;
+}
+
+p .button_1:hover {
+	font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+	text-align: center;
+	margin-top: 150px;
+}
+
+.github {
+	opacity: .4;
+}
+
+.github:hover {
+
+	opacity: 1;
+}

@@ -188,10 +188,17 @@ ul .jq {
 /* Experience */
 .experience {
 	margin-top: 50px;
+	padding-bottom: 60px;
 	text-align: center;
 	line-height: 1.8;
+	border-bottom: 4px solid #ccc;
+  border-radius: 6px;
 
 }
+.experience:hover {
+	border-bottom: 4px solid #BD7B1A;
+}
+
 
 .my-experience {
 	margin-top: 50px;

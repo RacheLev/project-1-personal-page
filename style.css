@@ -113,10 +113,10 @@ p span {
 }
 
  .plower-pic {
-	position: absolute;
+	display: inline;
 	float: left;
-	top: 620px;
-	left: 250px;
+	top: 100px;
+	/* left: 100px; */
 	border-radius: 50%;
  }
 
@@ -153,7 +153,7 @@ p span {
 }
 
 .skills li{
-	display: inline;
+	display: inline-block;
 	padding: 5px 10px;
 	color: #fff;
 }

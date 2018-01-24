@@ -116,7 +116,6 @@ p span {
 	display: inline;
 	float: left;
 	top: 100px;
-	/* left: 100px; */
 	border-radius: 50%;
  }
 
@@ -145,7 +144,7 @@ p span {
 	border-bottom: 4px solid #ccc;
   border-radius: 6px;
 	margin-left: 80px;
-	padding-bottom: 90px;
+	padding-bottom: 110px;
 }
 
 .background {
